@@ -18,7 +18,7 @@
 
 구현 시 블루프린트를 사용했습니다(레벨-Bp_Door). 우측 탭의 아웃라이너-타입-Bp_Door 편집에서 구성요소를 자세히 볼 수 있습니다.
 
-On Component Begin Overlap(설정한 오브젝트가 접근 시 이벤트 발생)->Bp_PersonCharacter에 형 변환(설정할 오브젝트를 플레이어 캐릭터로 설정)->Set Relative Rotation Z(Z 회전 값을 -5만큼 준다)->
+On Component Begin Overlap(설정한 오브젝트가 접근 시 이벤트 발생)->Bp_PersonCharacter에 형 변환(설정할 오브젝트를 플레이어 캐릭터로 설정)->Set Relative Rotation Z(Z 회전 값을 -5만큼 준다)->On Component End Overlap(설정한 오브젝트가 멀어질 시 이벤트 종료
 
 
 2.계단 앞 전화기 오브젝트에 접근 시 UI 선택지가 나타나도록 구현했습니다. 시점에 따라 선택지를 고를 수 있으며 선택할 수 있습니다.
