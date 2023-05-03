@@ -23,7 +23,9 @@ On Component Begin Overlap(설정한 오브젝트가 접근 시 이벤트 발생
 
 2.계단 앞 전화기 오브젝트에 접근 시 UI 선택지가 나타나도록 구현했습니다. 시점에 따라 선택지를 고를 수 있으며 선택할 수 있습니다.
 
-구현 시 블루프린트를 사용했습니다(레벨-Bp_KeypadContainer). 
+구현 시 블루프린트를 사용했습니다(레벨-Bp_KeypadContainer). 우측 탭의 아웃라이너-타입-Bp_KeypadContainer 편집에서 구성요소를 자세히 볼 수 있습니다.
+
+On Component Begin Overlap(설정한 오브젝트가 접근 시 이벤트 발생)->
 
 3.마우스 왼쪽 클릭 시 화면이 닫히는 시네마틱 효과를 주도록 구현했습니다. 추후 
 
